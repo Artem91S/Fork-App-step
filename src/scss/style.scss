@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    min-width: 320px;
+    max-width: 768px;
+    font-family: Montserrat;
+}
+@import 'fonts';
+@import '_mixin';
+@import '_variables';
+@import '_navbar';
+@import '_revolutionary';
+@import '_discription';
+@import '_revolutionary';
+@import '_you-get';
+@import '_partners';
+@import '_footer';
+@import '_pricing';
+@import '_screen768';
+@import '_screen1200';

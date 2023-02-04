@@ -1,0 +1,30 @@
+.revolutionary{
+    text-align: center;
+    @include flex();
+    flex-direction:column;
+    padding-top: 35.5px;
+    .revolutionary__lable{
+        color: $grey;
+        @include text-decoration(14px,1,14px,400);
+    }
+    .revolutionary__title{
+        padding-top: 79.5px;
+        @include text-decoration(26px,1,28px,700);
+        text-transform: uppercase;
+        color:#635C73;
+    }
+    .revolutionary__discription{
+        text-align:center;
+        @include text-decoration(14px,1,20px,400);
+        color:$black;
+        font-family: Lato;
+        padding-top: 27px;
+        max-width: 276px;
+    }
+    .icons{
+        @include padding(36px,120px);
+    }
+    .icon__fork{
+        padding-top: 20px;
+    }
+}

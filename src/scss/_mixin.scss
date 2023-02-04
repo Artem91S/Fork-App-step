@@ -1,0 +1,34 @@
+@mixin text-decoration($fz,$ls,$lh,$fw){
+    font-size:$fz;
+    letter-spacing: $ls;
+    line-height: $lh;
+    font-weight: $fw;
+}
+@mixin sizing__wh($w,$h){
+    width: $w;
+    height: $h;
+}
+@mixin sizing__min($minW,$w){
+    min-width: $minW;
+    width: $w;
+}
+@mixin menu__span($top,$transform){
+    top:$top;
+    transform: $transform;
+}
+@mixin menu__btn{
+    display: block;
+    position: absolute;
+    background:$white;
+    height: 2px;
+    width: 26px;
+}
+@mixin flex($align:center,$justify:center){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+@mixin padding($top,$bottom){
+    padding-top:$top;
+    padding-bottom:$bottom;
+}

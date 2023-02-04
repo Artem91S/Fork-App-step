@@ -1,0 +1,49 @@
+.btn--size{
+    box-sizing: border-box;
+    max-width: 290px;
+    width: 100%;
+}
+
+.discription{
+    text-align: center;
+    background: url('@img/Header.png')no-repeat center/cover;
+    @include sizing__min(320px,100%);
+    height:614px;
+    @include flex();
+    flex-direction: column;
+    position: relative;
+    .discription__titles{
+        position: absolute;
+        top:50px;
+    }
+    h1{
+        padding-top: 50px;
+        color:$white;
+        @include text-decoration(48px,1,48px,700)
+    }
+    .discription__slogan{
+        font-family: Lato;
+        font-style: normal;
+        padding-top: 19px;
+        max-width: 298px;
+        color:$main__color;
+        @include text-decoration(18px,1,24px,400)
+    }
+    .discription__hidden{
+        display: none;
+    }
+    .discription__version{
+        text-transform: uppercase;
+        padding-top: 14px;
+        color:$grey;
+        @include text-decoration(14px,1,14px,400)
+
+    }
+}
+.size__up{
+    @include text-decoration(18px,1,20px,700);
+}
+.btn--position{
+    position: absolute;
+    bottom: -22px;
+}

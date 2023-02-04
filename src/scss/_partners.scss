@@ -1,0 +1,28 @@
+.partners{
+    text-align: center;
+    background:url('@img/People-bg.png')no-repeat center/cover;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 10%;
+}
+.partners__title{
+    @include padding(0,53px);
+    color:$white;
+    @include text-decoration(36px,1,48px,700);
+}
+.partners__information{
+    p{
+        font-family: Lato;
+        font-style: italic;
+        @include text-decoration(16px,1,24px,700);
+        @include padding(33px,45px);
+        color:$white;
+    }
+}
+.partners__discription{
+    @include text-decoration(14px,1,21px,400);
+    color:#A291A5;
+    font-family: Lato;
+}
+
+

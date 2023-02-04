@@ -1,0 +1,202 @@
+@media(min-width:768px){
+.wrapper{
+    min-width: 768px;
+    max-width: 1200px;
+}
+.navbar{
+    @include flex(center,center);
+    padding: 22px 20px 56px;
+   &__log__name{
+        display: block;
+        color:$main__color;
+        text-transform: uppercase;
+        @include text-decoration(24px,1,16px,700);
+        padding-left: 17px;
+    }
+}
+.btn{
+    max-width: 145px;
+    box-sizing: border-box;
+}
+.btn__text--size{
+    @include text-decoration(16px,1,16px,700);
+}
+.navigation__menu{
+   position: absolute;
+   margin: 0 auto;
+    @include sizing__wh(570px,21px);
+}
+.navbar__logo{
+    @include flex();
+}
+#menu__toggle{
+    display: none;
+}
+.menu__btn{
+    display: none;
+}
+.menu__box{
+    flex-direction: row;
+    visibility: visible;
+    background:none;
+    @include sizing__wh(100%,21px);
+    .menu__item {
+        @include text-decoration(16px,1,18px,700);
+        color:$main__color;
+        margin: 0;
+        padding: 0;
+        &:hover{
+            border: none;}}
+  li{
+    text-align: center;
+    padding-top: 45px;
+    height: 15px;
+    border: none;
+    margin: 0;
+  }
+}
+.btn--size{
+    max-width: 390px;
+}
+.size__up{
+    @include text-decoration(21px,1,23px,700)
+}
+.discription{
+    .discription__titles{
+       top:68px;
+    }
+    h1{
+   
+    @include text-decoration(72px,1,72px,700)  
+    }
+    .discription__hidden{
+        display: block;
+    }
+    .discription__hidden--min768{
+        display: none;
+    }
+.discription__slogan{
+    max-width:600px;
+    @include text-decoration(24px,1,24px,400)
+}}
+.revolutionary{
+.revolutionary__title{
+    padding-top:93.5px;
+    @include text-decoration(42px,1,42px,700);
+}
+.revolutionary__discription{
+    text-align: center;
+    @include text-decoration(21px,1,32px,400);
+    font-family: Lato;
+    max-width: 689px;
+    padding-top: 33px;
+}
+.icons{
+    @include padding(24px,159px);
+}}
+.you-get{
+    position: relative;
+    padding-bottom: 500px
+}
+.block__title__photo{
+    @include flex();
+    flex-direction: column;
+}
+.you-get__title{
+    @include text-decoration(42px,1,44px,700);
+    padding-top: 62px;
+    max-width: 542px;
+}
+.you-get__items{
+    padding-top: 50px;
+    text-align: start;
+}
+.you-get_img{
+    @include flex();
+    width: 112px;
+    height: 85px;
+    padding-right: 23px;
+}
+.you-get__img--size{
+    margin-left: 20px;
+}
+.you-get__slogan{
+    padding: 0;
+    max-width: 582px;
+    @include text-decoration(16px,1,21px,400);
+}
+.you-get__description{
+    padding: 0;
+    max-width: 562px;
+    @include text-decoration(14px,1,21px,400);
+}
+.you-get__block{
+    @include flex();
+    padding-bottom: 61px;
+}
+.you-get__photo{
+    position: absolute;
+    padding-left: 68px;
+    bottom: 0;
+}
+.partners{
+    padding: 0;
+}
+.partners__title{
+    @include text-decoration(42px,1,44px,700);
+}
+.partners__block{
+    @include flex(flex-end,space-between);
+    flex-wrap: wrap;
+    padding: 88px 10px 0;
+}
+.partners__information{
+    @include flex();
+    flex-direction: column;
+    flex-basis: 42%;
+    padding-bottom: 62px;
+    img{
+      padding-bottom: 33px;
+    }
+    p{
+        max-width: 348px;
+        max-height: 62px;
+        padding: 0;
+    }
+}
+.partners__discription{
+    padding: 0 5% 20px;
+    max-width: 704px;
+    margin: 0 auto;
+}
+.pricis__title{
+    @include text-decoration(42px,1,44px,700);
+    padding-bottom: 39px;
+   &::before{
+    margin-bottom: 88px;
+   }
+}
+.conteuner__cards{
+    @include flex(center,center);
+    margin-bottom: 71px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:25px;
+    padding: 0 78px 0 109px;
+
+}
+.active{
+    position: relative;
+    right: 20px;
+}
+.possition__block{
+    position: relative;
+    right: 20px; 
+}
+.pricis__card__price__discription{
+    padding-bottom: 46px;
+}
+.pricis__card{
+    margin: 0;
+}
+}
