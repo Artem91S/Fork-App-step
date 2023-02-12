@@ -22,7 +22,7 @@
         @include text-decoration(48px,1,48px,700)
     }
     .discription__slogan{
-        font-family: Lato;
+        @include Lato();
         font-style: normal;
         padding-top: 19px;
         max-width: 298px;

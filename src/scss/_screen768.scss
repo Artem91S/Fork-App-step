@@ -138,12 +138,14 @@
     position: absolute;
     padding-left: 68px;
     bottom: 0;
+    right: 0;
 }
 .partners{
     padding: 0;
 }
 .partners__title{
     @include text-decoration(42px,1,44px,700);
+    padding-top:85px; 
 }
 .partners__block{
     @include flex(flex-end,space-between);

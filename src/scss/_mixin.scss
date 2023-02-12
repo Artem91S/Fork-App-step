@@ -32,3 +32,9 @@
     padding-top:$top;
     padding-bottom:$bottom;
 }
+@mixin Montserrat{
+    font-family: Montserrat;
+}
+@mixin Lato{
+    font-family: Lato;
+}

@@ -44,6 +44,7 @@
 .you-get__photo{
     position:absolute;
     bottom: 0;
+    
     @include flex(center,flex-start);
     max-width: 100%;
 

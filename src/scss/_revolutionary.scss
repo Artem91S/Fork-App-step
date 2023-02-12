@@ -17,7 +17,7 @@
         text-align:center;
         @include text-decoration(14px,1,20px,400);
         color:$black;
-        font-family: Lato;
+        @include Lato();
         padding-top: 27px;
         max-width: 276px;
     }

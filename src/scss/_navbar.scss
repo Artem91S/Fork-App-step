@@ -8,7 +8,7 @@
     }
     &__log__name{
         display: none;
-        font-family: Lato;
+        @include Lato();
     }
     .navbar__logo{
         width: 41px;
