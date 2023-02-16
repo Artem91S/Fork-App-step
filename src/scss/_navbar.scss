@@ -4,7 +4,7 @@
     background:$bg-navbar;
     &__conteuner{
        @include flex(center,space-between);
-        flex:3;
+        flex:2;
     }
     &__log__name{
         display: none;
