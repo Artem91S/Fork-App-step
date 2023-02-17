@@ -103,7 +103,7 @@
 }
 .you-get{
    background: #F4F4F4;
-   @include flex(flex-start,space-between);
+   @include flex(flex-start,center);
    flex-direction: row;
    position: relative;
    padding-top: 98px;
@@ -118,9 +118,8 @@
 .block__title__photo{
     order: 1;
     position: relative;
-     @include flex(center,flex-start);
+     @include flex(flex-start,flex-start);
     align-self: stretch;
-    flex: 1;
     min-height: 100%;
 
 }
@@ -163,6 +162,8 @@
 .partners__block{
     @include flex(center,space-between);
     padding: 81px 4% 0px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .partners__information{
     flex-basis: 29%;
